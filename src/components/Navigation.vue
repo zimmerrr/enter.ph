@@ -1,7 +1,7 @@
 <template>
   <q-header class="nav text-white">
     <div class="row">
-      <div class="col-2 text-right">
+      <div class="col-2 text-center">
         <q-img
           src="~assets/logo.png"
           no-spinner
@@ -34,7 +34,7 @@ const router = useRouter()
 const currPath = ref(router.currentRoute.value.fullPath)
 const active = ref(currPath.value)
 
-function nextRoute(url) {
+function nextRoute(url: string) {
   let nextRoute = '/'
   nextRoute = url
   active.value = url

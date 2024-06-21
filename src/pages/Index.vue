@@ -125,8 +125,7 @@
 .container
   width: 75vw
   height: 70vh
-.seperator
-  height: 10px !important
+
 .main-text
   max-width: 38vw
   .text-header

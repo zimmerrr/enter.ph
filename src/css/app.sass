@@ -1,15 +1,22 @@
 // app global css in Sass form
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap)
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap)
+@import font.sass
+
+html
+  @media screen and (max-height: 800px) and (orientation: landscape)
+    font-size: 14px
+  @media screen and (max-width: $breakpoint-xs-max)
+    font-size: 12px
 
 body
-  font-family: 'Montserrat', sans-serif
+  font-family: Montserrat
 
 .font-montserrat
   font-family: Montserrat
 
-.font-opensans
-  font-family: "Open Sans", sans-serif
+.font-poppins
+  font-family: Poppins
+
+.font-harmoni
+  font-family: Harmoni
 
 
-  

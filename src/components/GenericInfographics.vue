@@ -6,7 +6,7 @@
       </div>
       <div class="text-center fit q-mt-xl">
         <q-img
-          :src="image"
+          :src="imageSrc"
           no-spinner
           class="photo"
           flat
@@ -17,7 +17,7 @@
 </template>
 <script setup lang="ts">
 const props = defineProps({
-  image: { type: String, default: '' },
+  imageSrc: { type: String, default: '' },
   description: { type: String, default: '' },
 
 })

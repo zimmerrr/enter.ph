@@ -2,7 +2,7 @@
   <q-page
     class="flex flex-center items-stretch non-selectable"
   >
-    <div class="contianer q-my-xl">
+    <div class="container q-my-xl">
       <div class="main row">
         <div class="col-7 content-center text-center text-balance">
           <div class="main-text q-mx-auto">
@@ -32,7 +32,7 @@
     </div>
 
     <!-- ENTERTAINMENT -->
-    <div class="contianer  content-center">
+    <div class="container  content-center">
       <div class="main row">
         <div class="col-4 q-py-xl text-center">
           <q-img
@@ -60,7 +60,7 @@
     <div class="bg-white full-width seperator" />
 
     <!-- JUSTICE -->
-    <div class="contianer  content-center">
+    <div class="container  content-center">
       <div class="main row">
         <div class="col-8 content-center text-center text-balance">
           <div class="justice-text q-mx-auto">
@@ -88,7 +88,7 @@
     <div class="bg-white full-width seperator" />
 
     <!-- APPAREL -->
-    <div class="contianer content-center">
+    <div class="container content-center">
       <div class="main row">
         <div class="col-4 q-py-xl text-center">
           <q-img
@@ -112,6 +112,8 @@
         </div>
       </div>
     </div>
+
+    <div class="bg-white full-width seperator" />
   </q-page>
 </template>
 
@@ -120,7 +122,7 @@
 </script>
 
 <style scoped lang="sass">
-.contianer
+.container
   width: 75vw
   height: 70vh
 .seperator
@@ -163,4 +165,13 @@
 .second-photo
   width: 75%
 
+.logo
+  width: 80%
+
+.creator-logo
+  width: 5vw
+
+.creator-text
+  font-size: 1.1vw
+  font-weight: 600
 </style>

@@ -1,15 +1,16 @@
 <template>
-  <q-layout view="lhh Lpr lFf">
-    <navigation />
+  <q-layout view="lhh Lpr lff">
+    <Navigation />
     <q-page-container>
       <router-view />
     </q-page-container>
+    <Footer />
   </q-layout>
 </template>
 
 <script setup lang="ts">
 import Navigation from 'src/components/Navigation.vue'
-
+import Footer from 'src/components/Footer.vue'
 defineOptions({
   name: 'MainLayout',
 })

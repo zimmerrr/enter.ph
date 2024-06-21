@@ -1,7 +1,7 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lhh Lpr lFf">
+    <navigation />
     <q-page-container>
-      <navigation />
       <router-view />
     </q-page-container>
   </q-layout>
@@ -18,5 +18,9 @@ defineOptions({
 
 <style lang="sass">
 .q-layout
-  background-color: #000000
+  background-color: black
+  background-image: url('assets/home/bg-home.png') !important
+  background-repeat: no-repeat !important
+  background-position: 100% 0% !important
+
 </style>

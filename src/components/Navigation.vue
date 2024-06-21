@@ -1,5 +1,5 @@
 <template>
-  <div class="nav fit text-white q-pa-xl">
+  <q-header class="nav text-white">
     <div class="row">
       <div class="col-2 text-right">
         <q-img
@@ -23,7 +23,7 @@
         </q-btn>
       </div>
     </div>
-  </div>
+  </q-header>
 </template>
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
@@ -43,6 +43,9 @@ function nextRoute(url) {
 
 </script>
 <style lang="sass" scoped>
+.nav
+  background: transparent
+  background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%)
 .logo
   width: 200px
   max-width: 30vw

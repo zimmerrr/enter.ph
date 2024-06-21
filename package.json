@@ -1,8 +1,8 @@
 {
-  "name": "quasar-template",
+  "name": "Enter.ph",
   "version": "0.0.1",
-  "description": " ",
-  "productName": "Quasar Template",
+  "description": "",
+  "productName": "Enter.ph",
   "author": "Christian Andrei Torrijos <christianandrei.torrijos@cvsu.edu.ph>",
   "type": "module",
   "private": true,

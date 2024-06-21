@@ -15,7 +15,7 @@
 
     <generic-infographics
       :description="INFOGRAPHICS[2].description"
-      :image="INFOGRAPHICS[2].image"
+      :image-src="INFOGRAPHICS[2].image"
     />
   </q-page>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-center ">
+  <div class="flex flex-center non-selectable">
     <div class="container row q-pa-lg">
       <div
         v-if="!flip"

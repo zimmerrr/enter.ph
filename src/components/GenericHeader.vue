@@ -6,7 +6,7 @@
         class="col-4 text-right"
       >
         <q-img
-          :src="image"
+          :src="imageSrc"
           no-spinner
           class="photo"
           flat

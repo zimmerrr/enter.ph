@@ -21,8 +21,7 @@ defineOptions({
 })
 
 const route = useRoute()
-const bgHeader = route.meta.bgHeader
-console.log(bgHeader)
+
 </script>
 
 <style lang="sass">
@@ -30,27 +29,27 @@ console.log(bgHeader)
   background-color: black
 
 .home
-  background-image: url('assets/home/bg.png') !important
+  background-image: url('assets/bg/home.png') !important
   background-repeat: no-repeat !important
   background-position: 100% 0% !important
 
 .apparel
-  background-image: url('assets/apparel/bg.png') !important
+  background-image: url('assets/bg/apparel.png') !important
   background-repeat: no-repeat !important
   background-position: 100% 0% !important
 
 .justice
-  background-image: url('assets/justice/bg.png') !important
+  background-image: url('assets/bg/justice.png') !important
   background-repeat: no-repeat !important
   background-position: 100% 0% !important
 
 .entertainment
-  background-image: url('assets/entertainment/bg.png') !important
+  background-image: url('assets/bg/entertainment.png') !important
   background-repeat: no-repeat !important
   background-position: 100% 0% !important
 
 .about
-  background-image: url('assets/about/bg.png') !important
+  background-image: url('assets/bg/about.png') !important
   background-repeat: no-repeat !important
   background-position: 100% 0% !important
 

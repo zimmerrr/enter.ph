@@ -30,8 +30,9 @@ import Macapobre from 'src/assets/developers/26.png'
 import Regalado from 'src/assets/developers/27.png'
 import Arcangel from 'src/assets/developers/17.png'
 import Naga from 'src/assets/developers/29.png'
+import Panogalinog from 'src/assets/developers/32.png'
 
-export const ABOUT = [
+export const DEVELOPERS = [
   {
     name: 'Svet Jazmine Dio',
     role: 'Project Manager/QA',
@@ -193,3 +194,9 @@ export const ABOUT = [
     image: Naga,
   },
 ]
+
+export const INSTRUCTOR = {
+  name: 'Mhel Roldan Panogalinog',
+  role: 'GNED 07 Instructor',
+  image: Panogalinog,
+}

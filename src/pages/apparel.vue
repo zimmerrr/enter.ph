@@ -4,7 +4,7 @@
   >
     <div>
       <generic-header
-        :image="Image"
+        :image-src="HEADER[1].image"
         red-text="apparel"
         white-text="work"
       />
@@ -12,18 +12,40 @@
 
     <div class="bg-white full-width seperator q-my-xl" />
 
+    <generic-article
+      :image-src="ARTICLE[1].image"
+      :title="ARTICLE[1].title"
+      :description1="ARTICLE[1].description1"
+      :description2="ARTICLE[1].description2"
+      :description3="ARTICLE[1].description3"
+      :description4="ARTICLE[1].description4"
+    />
+
+    <div class="bg-white full-width seperator q-my-xl" />
+
+    <generic-video
+      :title="VIDEO[1].title"
+      :description="VIDEO[1].description"
+      :video-src="VIDEO[1].video"
+      volume="0.2"
+    />
+
+    <div class="bg-white full-width seperator q-my-xl" />
+
     <generic-infographics
       :description="INFOGRAPHICS[1].description"
-      :imageSrc="INFOGRAPHICS[1].image"
+      :image-src="INFOGRAPHICS[1].image"
     />
   </q-page>
 </template>
 
 <script lang="ts" setup>
 import GenericHeader from 'src/components/GenericHeader.vue'
+import GenericArticle from 'src/components/GenericArticle.vue'
+import GenericVideo from 'src/components/GenericVideo.vue'
 import GenericInfographics from 'src/components/GenericInfographics.vue'
-import { INFOGRAPHICS } from 'src/components/constants'
-import Image from 'src/assets/home/entertainment.png'
+import { HEADER, ARTICLE, VIDEO, INFOGRAPHICS } from 'src/components/constants'
+
 </script>
 
 <style scoped lang="sass">

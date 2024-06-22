@@ -22,7 +22,7 @@
         </div>
         <div class="col-grow q-pa-xl">
           <q-img
-            src="~assets/home/computer.png"
+            src="~assets/icons/computer.png"
             no-spinner
             class="main-photo"
             flat
@@ -36,7 +36,7 @@
       <div class="main row">
         <div class="col-4 q-py-xl text-center">
           <q-img
-            src="~assets/home/entertainment.png"
+            src="~assets/icons/entertainment.png"
             no-spinner
             class="second-photo"
             flat
@@ -76,7 +76,7 @@
         </div>
         <div class="col-4 q-py-xl text-center">
           <q-img
-            src="~assets/home/justice.png"
+            src="~assets/icons/justice.png"
             no-spinner
             class="second-photo"
             flat
@@ -92,7 +92,7 @@
       <div class="main row">
         <div class="col-4 q-py-xl text-center">
           <q-img
-            src="~assets/home/apparel.png"
+            src="~assets/icons/apparel.png"
             no-spinner
             class="second-photo"
             flat

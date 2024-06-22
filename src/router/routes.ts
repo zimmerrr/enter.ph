@@ -8,7 +8,7 @@ const routes: RouteRecordRaw[] = [
       { path: '/apparel', component: () => import('src/pages/apparel.vue'), meta: { bgHeader: 'apparel' } },
       { path: '/entertainment', component: () => import('src/pages/entertainment.vue'), meta: { bgHeader: 'entertainment' } },
       { path: '/justice', component: () => import('src/pages/justice.vue'), meta: { bgHeader: 'justice' } },
-      { path: '/about', component: () => import('src/pages/about.vue'), meta: { bgHeader: 'about' } },
+      { path: '/about', component: () => import('src/pages/about.vue'), meta: { bgHeader: 'about', footer: true } },
     ],
   },
   // Always leave this as last one,

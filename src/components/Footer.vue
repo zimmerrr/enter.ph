@@ -113,7 +113,7 @@
                   flat
                 />
                 <span class="col-6 text-uppercase creator-text content-center">
-                  DEVELOPER
+                  Web Developers
                 </span>
               </div>
 

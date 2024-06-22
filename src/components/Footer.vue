@@ -1,5 +1,8 @@
 <template>
-  <q-footer class="container content-center bg-transparent q-pa-xl">
+  <q-footer
+    v-if="!route.meta.footer"
+    class="content-center bg-transparent q-pa-xl"
+  >
     <div class="row">
       <div class="row col-3">
         <div class="col-12">
@@ -23,7 +26,7 @@
             <div class="row">
               <div class="col-12">
                 <q-img
-                  src="~assets/home/content.png"
+                  src="~assets/icons/content.png"
                   no-spinner
                   class="creator-logo col-6"
                   flat
@@ -79,7 +82,7 @@
             <div class="row">
               <div class="col-12">
                 <q-img
-                  src="~assets/home/uiux.png"
+                  src="~assets/icons/uiux.png"
                   no-spinner
                   class="creator-logo col-6"
                   flat
@@ -107,7 +110,7 @@
             <div class="row">
               <div class="col-12">
                 <q-img
-                  src="~assets/home/dev.png"
+                  src="~assets/icons/dev.png"
                   no-spinner
                   class="creator-logo col-6"
                   flat
@@ -132,7 +135,7 @@
             <div class="row q-mt-lg">
               <div class="col-12">
                 <q-img
-                  src="~assets/home/pm.png"
+                  src="~assets/icons/pm.png"
                   no-spinner
                   class="creator-logo col-6"
                   flat
@@ -158,9 +161,28 @@
       </div>
     </div>
   </q-footer>
+
+  <q-footer
+    v-else
+    class="container-alt content-center q-mx-auto bg-transparent q-my-xl"
+  >
+    <div class="text-center">
+      <q-img
+        src="~assets/logo.png"
+        no-spinner
+        class="logo-alt"
+        fit="contain"
+        flat
+      />
+    </div>
+    <div class="text-alt text-justify q-mx-auto">
+      This website is made by the 4th year students with the course of Bachelor Science in Computer Science of Cavite State University - Imus Campus.
+    </div>
+  </q-footer>
 </template>
 
 <script  lang="ts" setup>
+import { useRoute } from 'vue-router'
 import { DEVELOPERS } from './constants'
 
 const justiceAdvocates = DEVELOPERS[0].group[0].members
@@ -170,6 +192,7 @@ const webDesigner = DEVELOPERS[1].members
 const developer = DEVELOPERS[2].members
 const projectManager = DEVELOPERS[3].members
 
+const route = useRoute()
 </script>
 
 <style lang="sass" scoped>
@@ -186,4 +209,16 @@ const projectManager = DEVELOPERS[3].members
 .creator-text
   font-size: 1.4vw
   font-weight: 600
+
+.container-alt
+  width: 30vw
+  // margin-left: 41%
+
+.logo-alt
+  width: 55%
+  margin-left: -20%
+  margin-bottom: -5%
+.text-alt
+  width: 20vw
+  font-size: 1.2vw
 </style>

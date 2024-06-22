@@ -96,8 +96,11 @@ export const DEVELOPERS = [
   },
   {
     key: 'developer',
-    name: 'Developer',
-    members: ['Christian Andrei Torrijos'],
+    name: 'Web Developers',
+    members: [
+      'Christian Andrei Torrijos',
+      'Franz Emsley Manibog',
+    ],
   },
   {
     key: 'project_manager',

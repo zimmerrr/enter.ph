@@ -1,6 +1,6 @@
 <template>
   <q-page
-    class="flex flex-center items-stretch"
+    class="flex flex-center items-stretch non-selectable"
   >
     <!-- about -->
     <div class="about-container text-justify q-mt-lg">

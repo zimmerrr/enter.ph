@@ -1,5 +1,6 @@
 <template>
   <q-layout
+    v-if="$q.screen.width > $q.screen.height"
     view="lhh Lpr lff"
     :class="route.meta.bgHeader ? route.meta.bgHeader : `` "
   >
@@ -8,6 +9,20 @@
       <router-view />
     </q-page-container>
     <Footer />
+  </q-layout>
+  <q-layout v-else>
+    <div class="text-center">
+      <q-img
+        src="~assets/logo.png"
+        no-spinner
+        class="logo"
+        flat
+      >
+        <div class="text-h5 font-weight-bolder absolute-bottom">
+          Webpage only available in landscape.
+        </div>
+      </q-img>
+    </div>
   </q-layout>
 </template>
 

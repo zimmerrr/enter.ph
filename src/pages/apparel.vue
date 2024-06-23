@@ -7,6 +7,7 @@
         :image-src="HEADER[1].image"
         red-text="apparel"
         white-text="work"
+        :description="HEADER[1].description"
       />
     </div>
 

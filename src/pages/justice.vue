@@ -7,6 +7,7 @@
         :image-src="HEADER[2].image"
         red-text="justice"
         white-text="ad"
+        :description="HEADER[2].description"
         flip
       />
     </div>

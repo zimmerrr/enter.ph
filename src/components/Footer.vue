@@ -129,8 +129,8 @@
                 </span>
               </div>
 
-              <div class="col-12">
-                <div class="q-mt-md text-center text-italic">
+              <div class="col-8 q-mx-auto">
+                <div class="q-mt-md  text-italic">
                   <div
                     v-for="(members, idx) in developer"
                     :key="idx"

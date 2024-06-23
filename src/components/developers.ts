@@ -34,21 +34,6 @@ import Panogalinog from 'src/assets/developers/32.png'
 
 export const DEVELOPERS = [
   {
-    name: 'Svet Jazmine Dio',
-    role: 'Project Manager/QA',
-    image: Dio,
-  },
-  {
-    name: 'Christian Andrei Torrijos',
-    role: 'Web Developer',
-    image: Torrijos,
-  },
-  {
-    name: 'Franz Emsley Manibog',
-    role: 'Web Developer',
-    image: Manibog,
-  },
-  {
     name: 'Jerome Joaquin',
     role: 'Content Creator',
     image: Joaquin,
@@ -192,6 +177,21 @@ export const DEVELOPERS = [
     name: 'Rodney Naga',
     role: 'Web Designer',
     image: Naga,
+  },
+  {
+    name: 'Franz Emsley Manibog',
+    role: 'Web Developer',
+    image: Manibog,
+  },
+  {
+    name: 'Christian Andrei Torrijos',
+    role: 'Web Developer',
+    image: Torrijos,
+  },
+  {
+    name: 'Svet Jazmine Dio',
+    role: 'Project Manager/QA',
+    image: Dio,
   },
 ]
 

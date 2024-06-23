@@ -85,7 +85,7 @@ import { DEVELOPERS, INSTRUCTOR } from 'src/components/developers'
 
 .grid-container
   display: grid
-  grid-template-columns: repeat(5, 20%)
+  grid-template-columns: repeat(4, 25%)
 
 .grid
   padding: 5%

@@ -8,7 +8,7 @@
         red-text="justice"
         white-text="ad"
         flip
-        :description="description"
+        :description="HEADER[2].description"
       />
     </div>
 

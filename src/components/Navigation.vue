@@ -45,7 +45,7 @@ function nextRoute(url: string) {
 <style lang="sass" scoped>
 .nav
   background: transparent
-  background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%)
+  background: linear-gradient(180deg, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%)
 .logo
   width: 200px
   max-width: 30vw

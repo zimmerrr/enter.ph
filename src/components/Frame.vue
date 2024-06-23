@@ -38,15 +38,14 @@ const props = defineProps({
 
 .image-container
   width: 100%
+  width: 200px
 
 .name
   font-size: 1vw
-  font-weight: 900
   line-height: 1
-  font-style: italic
-  width: 200px
 
 .role
-  font-size: 1vw
+  font-size: 14px
+  font-style: italic
 
 </style>

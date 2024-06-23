@@ -15,7 +15,7 @@
         class="col-2 flex flex-center"
       >
         <q-btn
-          class="text-uppercase cursor-pointer text-weight-bold"
+          class="text-uppercase cursor-pointer text-weight-bold menu-text"
           :class="{ 'text-primary': active === menu.url }"
           @click="nextRoute(menu.url)"
         >
@@ -50,4 +50,13 @@ function nextRoute(url: string) {
   width: 200px
   max-width: 30vw
 
+.menu-text
+  font-size: 1vw
+@media screen and (max-width: $breakpoint-xs-max)
+  .logo
+    width: 200px
+    max-width: 20vw
+
+  .menu-text
+    font-size: 1.5vw
 </style>

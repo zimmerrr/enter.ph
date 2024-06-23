@@ -65,4 +65,5 @@ const props = defineProps({
 .description
   font-size: 1vw
   max-width: 60%
+
 </style>

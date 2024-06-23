@@ -19,7 +19,9 @@
           This website is made by the 4th year students with the course of Bachelor Science in Computer Science of Cavite State University - Imus Campus.
         </div>
       </div>
-      <div class="col-9 q-pl-lg">
+      <div
+        class="col-9 q-pl-lg"
+      >
         <div class="row font-poppins">
           <!-- CONTENT CREATOR -->
           <div class="col-4">
@@ -37,25 +39,30 @@
               </div>
 
               <div class="col-12 row">
-                <div class="col-6 q-mt-md text-italic">
+                <div
+                  class="col-6 text-italic"
+                  :class="$q.screen.width > $q.screen.height ? `q-mt-md` : `q-mt-sm`"
+                >
                   <!-- JUSTICE ADVOCATES -->
-                  <div class="text-weight-bold">
+                  <div class="text-weight-bold creator-subgroup">
                     Justice Advocates:
                   </div>
                   <div
                     v-for="(members, idx) in justiceAdvocates"
                     :key="idx"
+                    class="member-text"
                   >
                     <div>{{ members }}</div>
                   </div>
                   <!-- ENTERTAINMENT -->
                   <div class="q-mt-md">
-                    <div class="text-weight-bold">
+                    <div class="text-weight-bold creator-subgroup">
                       Entertainment:
                     </div>
                     <div
                       v-for="(members, idx) in entertainment"
                       :key="idx"
+                      class="member-text"
                     >
                       <div>{{ members }}</div>
                     </div>
@@ -63,12 +70,13 @@
                 </div>
                 <div class="col-6 q-mt-md text-italic">
                   <!-- APPAREL WORKERS -->
-                  <div class="text-weight-bold">
+                  <div class="text-weight-bold creator-subgroup">
                     Apparel Workers:
                   </div>
                   <div
                     v-for="(members, idx) in apparelWorkers"
                     :key="idx"
+                    class="member-text"
                   >
                     <div>{{ members }}</div>
                   </div>
@@ -92,11 +100,12 @@
                 </span>
               </div>
 
-              <div class="col-6 q-mx-auto">
+              <div class="col-7 q-mx-auto">
                 <div class="q-mt-md  text-italic">
                   <div
                     v-for="(members, idx) in webDesigner"
                     :key="idx"
+                    class="member-text"
                   >
                     <div>{{ members }}</div>
                   </div>
@@ -125,6 +134,7 @@
                   <div
                     v-for="(members, idx) in developer"
                     :key="idx"
+                    class="member-text q-pl-xl"
                   >
                     <div>{{ members }}</div>
                   </div>
@@ -150,6 +160,7 @@
                   <div
                     v-for="(members, idx) in projectManager"
                     :key="idx"
+                    class="member-text"
                   >
                     <div>{{ members }}</div>
                   </div>
@@ -209,7 +220,10 @@ const route = useRoute()
 .creator-text
   font-size: 1.4vw
   font-weight: 600
-
+.creator-subgroup
+  font-size: 1vw
+.member-text
+  font-size: 1vw
 .container-alt
   width: 30vw
   // margin-left: 41%
@@ -221,4 +235,11 @@ const route = useRoute()
 .text-alt
   width: 20vw
   font-size: 1.2vw
+
+@media screen and (max-width: $breakpoint-xs-max)
+  .creator-text
+    font-size: 1vw
+
+  .member-text
+    font-size: 1vw
 </style>

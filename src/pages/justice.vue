@@ -14,12 +14,12 @@
     <div class="bg-white full-width seperator q-my-xl" />
 
     <generic-article
-      :image-src="ARTICLE[1].image"
-      :title="ARTICLE[1].title"
-      :description1="ARTICLE[1].description1"
-      :description2="ARTICLE[1].description2"
-      :description3="ARTICLE[1].description3"
-      :description4="ARTICLE[1].description4"
+      :image-src="ARTICLE[2].image"
+      :title="ARTICLE[2].title"
+      :description1="ARTICLE[2].description1"
+      :description2="ARTICLE[2].description2"
+      :description3="ARTICLE[2].description3"
+      :description4="ARTICLE[2].description4"
     />
 
     <div class="bg-white full-width seperator q-my-xl" />

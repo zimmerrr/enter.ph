@@ -1,7 +1,7 @@
 <template>
   <q-layout
     v-if="$q.screen.width > $q.screen.height"
-    view="lhh Lpr lff"
+    view="lHh Lpr lff"
     :class="route.meta.bgHeader ? route.meta.bgHeader : `` "
   >
     <Navigation />

@@ -47,7 +47,7 @@ import GenericVideo from 'src/components/GenericVideo.vue'
 import GenericInfographics from 'src/components/GenericInfographics.vue'
 import { HEADER, ARTICLE, INFOGRAPHICS, VIDEO } from 'src/components/constants'
 
-const description = ref('deducated to showcasing the stories and talents of local apparel workers in the Philippines. Discover their craft, learn about their impact, and support the heart of the Philippine fasion industry.')
+const description = ref('Your go-to source for the latest in Philippine local entertainment. Stay updated with news, exclusive interviews, and behind-the- scenes stories from the heart of the local entertainment scene.')
 
 </script>
 

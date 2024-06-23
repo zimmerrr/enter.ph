@@ -7,6 +7,7 @@
         :image-src="HEADER[1].image"
         red-text="apparel"
         white-text="work"
+        :description="description"
       />
     </div>
 
@@ -41,11 +42,14 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
 import GenericHeader from 'src/components/GenericHeader.vue'
 import GenericArticle from 'src/components/GenericArticle.vue'
 import GenericVideo from 'src/components/GenericVideo.vue'
 import GenericInfographics from 'src/components/GenericInfographics.vue'
 import { HEADER, ARTICLE, VIDEO, INFOGRAPHICS } from 'src/components/constants'
+
+const description = ref('Dedicated to showcasing the stories and talents of local apparel workers in the Philippines. Discover their craft, learn about their impact, and support the heart of the Philippine fashion industry.')
 
 </script>
 

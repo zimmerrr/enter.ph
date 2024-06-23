@@ -20,16 +20,16 @@ export const MENU = [
     url: '/',
   },
   {
-    name: 'Apparel',
-    url: '/apparel',
-  },
-  {
     name: 'Entertainment',
     url: '/entertainment',
   },
   {
     name: 'Justice',
     url: 'justice',
+  },
+  {
+    name: 'Apparel',
+    url: '/apparel',
   },
   {
     name: 'About Us',
@@ -68,7 +68,7 @@ export const DEVELOPERS = [
           'Marbie Jean Rubio',
           'Cristina Rose Cuyno',
           'Keice Zoleta',
-          'Mariella Cruzet',
+          'Mariela Cruzet',
           'Angela Sanggalang',
           'Maria Crisanta Borja',
         ],
@@ -86,7 +86,7 @@ export const DEVELOPERS = [
       'Gerwin Jahziel Ogot',
       'John Hendrix Macasiab',
       'Jose Christopher Ojano',
-      'Joverlyn Delacruz',
+      'Jovelyn Delacruz',
       'Chanelle Estribor',
       'Niño Regalado',
       'Reychelle Wahing',
@@ -113,17 +113,17 @@ export const HEADER = [
   {
     name: 'Entertainment',
     image: EntertainmentHeaderImg,
-    description: 'dedicated to showcasing the stories and talents of local apparel workers in the Philippines. Discover their craft, learn about their impact, and support the heart of the Philippine fasion industry.',
+    description: 'Your go-to source for the latest in Philippine local entertainment. Stay updated with news, exclusive interviews, and behind-the- scenes stories from the heart of the local entertainment scene.',
   },
   {
     name: 'Apparel',
     image: ApparelHeaderImg,
-    description: 'dedicated to showcasing the stories and talents of local apparel workers in the Philippines. Discover their craft, learn about their impact and support the heart of the Philippine fasion industry.',
+    description: 'Dedicated to showcasing the stories and talents of local apparel workers in the Philippines. Discover their craft, learn about their impact, and support the heart of the Philippine fashion industry.',
   },
   {
     name: 'Justice',
     image: JusticeHeadercImg,
-    description: 'Your hub for local justice advocay in the Philippines. Stay informed about key issues, meet inspiring advocates, and join the movement for a fair and just society',
+    description: 'Your hub for local justice advocacy in the Philippines. Stay informed about key issues, meet inspiring advocates, and join the movement for a fair and just society.',
   },
 ]
 
@@ -150,8 +150,8 @@ export const ARTICLE = [
     name: 'Justice',
     image: JusticeArticleImg,
     title: 'Gender Discrimination and Path to Justice',
-    description1: 'Gender Justice has been a longstanding advocacy and as more emphasized in the contemporary world. All over the globe, a cornucopia of human rights violations were recorded in relation to gender discrimination. The United Nations Sustainable Development Goals',
-    description2: 'were concurred upon by all United Nations Member states in 2015. According to Global Citizen Facts, a third of countries have made no progress towards achieving Gender Equality; 18 countries have portrayed worsening cases of gender inequality in Venezuela, Afghanistan, Algeria, Belarus, Kuwait, and Ecuador.',
+    description1: 'Gender Justice has been a longstanding advocacy and as more emphasized in the contemporary world. All over the globe, a cornucopia of human rights violations were recorded in relation to gender discrimination. The United Nations Sustainable Development Goals were concurred upon by all United Nations Member states in 2015.',
+    description2: 'According to Global Citizen Facts, a third of countries have made no progress towards achieving Gender Equality; 18 countries have portrayed worsening cases of gender inequality in Venezuela, Afghanistan, Algeria, Belarus, Kuwait, and Ecuador.',
     description3: 'According to the Philippine Institute for Development Studies (PIDS), the Philippines has improved slightly in 2023 appertaining to the context of gender equality, advancing three spots to the 16th ranking among 146 countries in the latest World Economic Forum’s (WEF) Global Gender Gap Index report (GGGR). Meanwhile, it is also paramount to point out that the Gender Gap Index focuses on the measure of achievement, as it assesses gender gaps but not the norms and beliefs. A 2017 report from the Philippine Institute for Development Studies emphasized the underrepresentation of women in governance over the last few decades, the overall picture of female representation was then marked “particularly alarming”.',
     description4: 'The Commission on Human Rights in the Philippines advocates the SOGIE Equality bill as part of the measurement for law-driven justice for gender discrimination. According to the Psychological Association of the Philippines, lesbian, gay, bisexual, and transgender Filipinos continue to experience stigma, prejudice, and discrimination in Philippine Society. The stigma is prevalently manifested through bullying, teasing, and harassment. In the view of Amnesty Philippines, the SOGIE Equality Bill recognizes the fundamental rights of every person regardless of sexual orientation and gender identity to address discrimination against the young LGBTQIA+ and everyone in general.',
   },
@@ -166,7 +166,7 @@ export const VIDEO = [
   {
     title: 'Apparel Workers in Urbanization',
     video: 'https://www.youtube.com/embed/rbfaK7Y6GEI',
-    description: 'Urbanization and the Apparel Workers',
+    description: '',
   },
   {
     title: 'Justice Advocates for Gender Discrimination',
@@ -184,7 +184,7 @@ export const INFOGRAPHICS = [
   {
     name: 'Apparel',
     image: ApparelInfographicImg,
-    description: "Urbanization impacts society in numerous ways, presenting both challenges and opportunities. This infographics explores key issues like Mental Health, Sustainable Cities, Salary Range, Apparel Worker conditions, Women's status, and Social dynamics, highlighting the need for inclusive growth, fair wages, gender equality, and sustainable urban development.",
+    description: "Urbanization impacts society in numerous ways in both challenges and opportunities. This infographics explores key issues such as Mental Health, Sustainable Cities, Salary Range, Apparel Worker conditions, Women's status, and Social dynamics, highlighting the need for inclusive growth, fair wages, gender equality, and sustainable urban development.",
   },
   {
     name: 'Justice',

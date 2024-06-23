@@ -8,6 +8,7 @@
         red-text="justice"
         white-text="ad"
         flip
+        :description="description"
       />
     </div>
 
@@ -42,11 +43,14 @@
 </template>
 
 <script lang="ts" setup>
+import { ref } from 'vue'
 import GenericHeader from 'src/components/GenericHeader.vue'
 import GenericArticle from 'src/components/GenericArticle.vue'
 import GenericVideo from 'src/components/GenericVideo.vue'
 import GenericInfographics from 'src/components/GenericInfographics.vue'
 import { HEADER, ARTICLE, VIDEO, INFOGRAPHICS } from 'src/components/constants'
+
+const description = ref('Your hub for local justice advocacy in the Philippines. Stay informed about key issues, meet inspiring advocates, and join the movement for a fair and just society.')
 
 </script>
 

@@ -26,7 +26,7 @@
       <div class="header text-center font-poppins q-mb-lg">
         Creators
       </div>
-      <div class="justify-center grid-container fit">
+      <div class="grid-container fit">
         <div
           v-for="(developer, idx) in DEVELOPERS"
           :key="idx"
@@ -68,12 +68,12 @@ import { DEVELOPERS, INSTRUCTOR } from 'src/components/developers'
 
 .about-container
   max-width: 80vw
-  margin-left: 40%
+  margin-left: 30%
 .about-header
   font-size: 7vw
   line-height: 1
 .about-text
-  max-width: 30vw
+  max-width: 35vw
   font-size: 1vw
 .frame-container
   max-width: 80vw

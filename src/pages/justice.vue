@@ -38,6 +38,7 @@
       :image-src="INFOGRAPHICS[2].image"
     />
   </q-page>
+  <div class="bg-white full-width seperator q-my-xl" />
 </template>
 
 <script lang="ts" setup>

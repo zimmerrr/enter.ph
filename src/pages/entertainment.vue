@@ -35,6 +35,7 @@
       :description="INFOGRAPHICS[0].description"
       :image-src="INFOGRAPHICS[0].image"
     />
+    <div class="bg-white full-width seperator q-my-xl" />
   </q-page>
 </template>
 

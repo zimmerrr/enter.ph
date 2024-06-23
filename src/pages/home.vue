@@ -104,7 +104,7 @@
               <span class="text-primary">ENT</span><span class="text-accent">ER</span>.<span class="text-secondary">APPAREL</span>WORK
             </div>
             <div class="text-justify text-body">
-              dedicated to showcasing the stories and talents of local apparel workers
+              Dedicated to showcasing the stories and talents of local apparel workers
               in the Philippines. Discover their craft, learn about their impact, and
               support the heart of the Philippine fashion industry.
             </div>

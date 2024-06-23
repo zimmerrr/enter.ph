@@ -3,6 +3,22 @@
     class="flex flex-center items-stretch"
   >
     <!-- about -->
+    <div class="about-container text-justify q-mt-lg">
+      <div class="about-header font-harmoni">
+        ABOUT US
+      </div>
+      <div class="about-text font-poppins text-italic">
+        <div class="q-mb-md">
+          Welcome to ENTER.PH, a dynamic platform created by the Bachelor of Science in Computer Science Section 4A of Cavite State University - Imus Campus. This website was developed as part of our coursework for the subject "The Contemporary World" (Subject Code: GNED 7).
+        </div>
+        <div class="q-mb-md">
+          At ENTER.PH, we aim to provide a comprehensive look into the vibrant spheres of local entertainment, justice advocacy, and the apparel industry in the Philippines. Our goal is to inform, inspire, and connect our community through engaging content and meaningful stories.
+        </div>
+        <div class="q-mb-md">
+          Join us as we explore and celebrate the unique aspects of Philippine culture and society, driven by the passion and dedication of future tech innovators and advocates.
+        </div>
+      </div>
+    </div>
 
     <div class="bg-white full-width seperator q-my-xl" />
 
@@ -49,6 +65,16 @@ import { DEVELOPERS, INSTRUCTOR } from 'src/components/developers'
 </script>
 
 <style scoped lang="sass">
+
+.about-container
+  max-width: 80vw
+  margin-left: 40%
+.about-header
+  font-size: 7vw
+  line-height: 1
+.about-text
+  max-width: 30vw
+  font-size: 1vw
 .frame-container
   max-width: 80vw
 
